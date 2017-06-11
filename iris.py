@@ -7,7 +7,6 @@ TRAIN_DATA_SIZE = 50  # 150個のデータのうちTRAIN_DATA_SIZE個を訓練�
 HIDDEN_LAYER_SIZE = 6  # 中間層(隠れ層)のサイズ(今回は中間層は1層なのでスカラー)
 LEARNING_RATE = 0.1  # 学習率
 ITERS_NUM = 1000  # 繰り返し回数
-DELTA = 0.01
 
 # データを読み込み
 # デフォルトで'#'の行をを飛ばすようになっている
